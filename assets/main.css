@@ -1,0 +1,130 @@
+div.main {
+	width: 75%;
+	height: 100%;
+	margin-left: auto;
+	margin-top: 5%;
+	margin-right: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	font-family: arial;
+}
+
+html, body {
+    margin:0;
+		padding:0;
+		height:100%;
+}
+
+.pageContainer {
+    min-height:100%;
+		position:relative;
+}
+.contentContainer {
+    padding-bottom: 100px;
+}
+
+section {
+	white-space: nowrap;
+}
+
+div.header {
+	width: 100%;
+	overflow: hidden;
+}
+        
+div.headerText {
+	width: 85%;
+	display: inline-block;
+	vertical-align: top;
+	white-space: normal;
+}  
+        
+#name {
+	margin: 10px 0 0 15px;
+	font-family: arial;
+	word-wrap: break-word;
+	font-size: 40px;
+}
+        
+#college {
+	margin: 0 0 0 15px;
+	font-family: arial;
+	word-wrap: break-word;
+	font-size: 20px;
+}
+
+#sectionTitle {
+	font-family: arial;
+	word-wrap: break-word;
+	margin: 0
+
+}
+
+div.textSection {
+	margin: 10px  0 15px;
+	font-family: arial;
+	word-wrap: break-word;
+}
+
+img.avatar {
+	max-width: 15%;
+	max-height:100%;
+    display: inline-block;
+    vertical-align: middle
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-top: 8px;
+}
+
+.printerHolder {
+    display: inline-block;
+    height: 220px;
+    width: 200px;
+    vertical-align: top; 
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+
+.printerImg {
+    width:100px; 
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.stretchRest {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+
+li::before {
+    content: "• ";
+    color: #2196F3!important;
+    display: inline-block; width: 1em;
+    margin-left: -1em;
+}
+
+.footer {
+    position: absolute;
+    padding-bottom: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
