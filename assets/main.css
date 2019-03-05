@@ -1,28 +1,16 @@
-div.main {
-	width: 75%;
-	height: 100%;
-	margin-left: auto;
-	margin-top: 5%;
-	margin-right: auto;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	font-family: arial;
-}
-
 html, body {
-    margin:0;
-		padding:0;
-		height:100%;
+	margin:0;
+	padding:0;
+	height:100%;
 }
 
 .pageContainer {
-    min-height:100%;
-		position:relative;
+	min-height:100%;
+	position:relative;
 }
+
 .contentContainer {
-    padding-bottom: 100px;
+	padding-bottom: 100px;
 }
 
 section {
@@ -35,7 +23,7 @@ div.header {
 }
         
 div.headerText {
-	width: 85%;
+	width: 83%;
 	display: inline-block;
 	vertical-align: top;
 	white-space: normal;
@@ -69,48 +57,48 @@ div.textSection {
 }
 
 img.avatar {
-	max-width: 15%;
+	max-width: 17%;
 	max-height:100%;
-    display: inline-block;
-    vertical-align: middle
+	display: inline-block;
+	vertical-align: middle
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 li {
-    margin-top: 8px;
+	margin-top: 8px;
 }
 
 .printerHolder {
-    display: inline-block;
-    height: 220px;
-    width: 200px;
-    vertical-align: top; 
-    position: relative;
-    vertical-align: top;
-    display: inline-block;
-    *display: inline;
-    zoom: 1;
+	display: inline-block;
+	height: 220px;
+	width: 200px;
+	vertical-align: top; 
+	position: relative;
+	vertical-align: top;
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
 }
 
 .printerImg {
-    width:100px; 
-    position: absolute;
-    bottom: 10px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
+	width:100px; 
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 }
 
 .stretchRest {
-    width: 100%;
-    display: inline-block;
-    font-size: 0;
-    line-height: 0;
+	width: 100%;
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
 }
 
 li::before {
