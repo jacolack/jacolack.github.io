@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body onload="myFunction()">
+
+<script>
+function myFunction() {
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+      // Windows Phone must come first because its UA also contains "Android"
+
+    if (/android/i.test(userAgent)) {
+               window.location.href = 'https://play.app.goo.gl/?link=https://play.google.com/store/apps/details?id=com.jacksheridan.tritondine' 
+    } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+       window.location.href = 'https://itunes.apple.com/us/app/triton-dine/id1437216504?mt=8' 
+    } else
+        {
+           alert("This is not an iOS or Android browser."); 
+        }
+}
+</script>
+</head>
+
+<h1>Redirecting to Triton Dine...</h1>
+</body>
+
+</html>
