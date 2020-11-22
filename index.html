@@ -1,144 +1,168 @@
-<!DOCTYPE html>
 <html>
+
 <head>
 <title>Jack Sheridan</title>
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/main.css" type="text/css">
-<link rel="icon" href="assets/favicon.png">
-<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="assets/index.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
 </head>
-<body class="w3-light-grey">
-<!-- Page Container -->
-    <div class="pageContainer">
-<div class="w3-content contentContainer" style="max-width:1400px;">  
-<!-- right here -->
-<div class="w3-rest">
-    <div class="w3-white w3-text-grey w3-card-2 w3-margin-top w3-margin-left w3-margin-right w3-margin-bottom">
-        <div class="w3-display-container">
-            <div class="header">
-                <section>
-                    <img onclick="document.getElementById('id01').style.display='block'" class="avatar" src="assets/avatar.jpg">
-                    <div class="headerText">
-				    <h1 class="w3-text-black" id="name">Jack Sheridan</h1>
-                    <div class="w3-margin-left">
-                        <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue"></i>Computer Engineer</p>
-                        <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-blue"></i>California, USA</p>
-                        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue"></i><a href="mailto:jackrileysheridan@gmail.com" target="_top">jackrileysheridan@gmail.com</a></p>
-                        <p><i class="fa fa-file-alt fa-fw w3-margin-right w3-large w3-text-blue"></i><a href="assets/resume.pdf" target="_blank">Résumé</a></p>
-                    </div>
-                    </div>
-                </section>
-            </div> 
-        </div>
-        <div class="w3-container">
-          <hr style="margin-top: 0px;">
-          <p class="w3-large"><b><i class="fa fa-certificate fa-fw w3-margin-right w3-text-blue"></i>Introduction</b></p>
-            <div class="w3-container w3-text-black">
-                <p>I grew up in Chico, California. I played with legos, played basketball, 
-                    volleyball, and swam. I began programming in 7th grade, and have been working 
-                    with computers ever since.</p>
-            </div>
-            <br>
-        </div>
-     </div>
-    <div class="w3-container w3-card-2 w3-white w3-margin-left w3-margin-right w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-book fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Education</h2>   
-        <div class="w3-container">
-          <h5><b class="w3-opacity">Universtiy of California, San Diego</b></h5>
-          <h6 class="w3-text-blue"><i class="fa fa-calendar-alt fa-fw w3-margin-right"></i>2018 - Current</h6>
-          <p>I am majoring in computer science, and I plan to graduate in 2021.</p>
-        </div>
- 	<br>
-    </div>
-    <div class="w3-container w3-card-2 w3-white w3-margin-bottom w3-margin-left w3-margin-right">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-briefcase fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Swift, Kotlin & Java</b></h5>
-          <h6 class="w3-text-blue"><i class="fa fa-calendar-alt fa-fw w3-margin-right"></i>2016 - Current</h6>
-          <p>I have designed and written multiple iOS and Android apps and published them on their respective app stores. I have connected to database platforms, as well as technical html parsing. Also, I am successful at complicated UI solutions. I even wrote this website! Here are some of the apps I have made:</p>
-            <ul>
-		<li><a href="https://www.assassin.fun" target="_blank"><span class="w3-tag w3-blue w3-round">Assassin</span></a> is a game app that 
-		facilitates a real-world tag-like game of eliminating targets and staying 
-		alive.</li>
-		<li><a href="https://trailmap.jacksheridan.com" target="_blank"><span class="w3-tag w3-blue w3-round">TrailMap</span></a> is an app that allows users to paste any image onto a map and zoom and scale. Their 
-		'blue dot' appears on the image to identify location relative to their custom image.
-		</li>
-            <li><a href="https://tritondine.jacksheridan.com" target="_blank"><span class="w3-tag w3-blue w3-round">Triton Dine</span></a> is an app that connects 
-		to the UCSD student dining dollars information server and provides students
-		with insights for saving their dining
-		dollars on a day-to-day basis.
-		</li>
-		
-		<li><a href="https://itunes.apple.com/us/app/venom-snake-battle/id1239286801?mt=8" target="_blank"><span class="w3-tag w3-blue w3-round">Venom</span></a> is a traditional snake game with the added
-		ability to compete against other players over wifi or buetooth.
-		</li>
-		</ul>   
+<body>
+    <div class="main">
+
+<img id="avatar" src="assets/avatar.jpg">
+<h1>Jack Sheridan</h1>
+<h3>Software Engineer</h3>
+<h3>UCSD Masters in Computer Science June 2022</h3>
+        
+        <br>
+<h1>Software Experience</h1>
         <hr>
-        </div>
-              <div class="w3-container">
-          <h5 class="w3-opacity"><b>C & C++</b></h5>
-          <h6 class="w3-text-blue"><i class="fa fa-calendar-alt fa-fw w3-margin-right"></i>2018 - Current</h6>
-          <p>I have worked extensively with object oriented design, and have written my own data structures to practice memory management and class derivation. I have also utilized Unix and GNU tools, and I am proficient in vim editor and git repositories.</p>
-          <hr>
-        </div>
-            
-        <div class="w3-container">
-          <h5><b class="w3-opacity">3D Modeling | </b><a href="/3Dmodeling.html"><span class="w3-tag w3-blue w3-round">See More</span></a></h5>
-          <h6 class="w3-text-blue"><i class="fa fa-calendar-alt fa-fw w3-margin-right"></i>2014 - 2018</h6>
-          <p> I am experienced in multiple 3D modelling programs, including SketchUp, AutoCAD, and SolidWorks. I am a Certified SolidWorks Associate as of 2016, and have built multiple designs for local clients and Chico High School. I am also very experienced in the use and maintenance of 3D printers.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5><b class="w3-opacity">Digital Media | </b><a href="/digitalmedia.html"><span class="w3-tag w3-blue w3-round">See More</span></a></h5>
-          <h6 class="w3-text-blue"><i class="fa fa-calendar-alt fa-fw w3-margin-right"></i>2015 - Current</h6>
-          <p>I have two years of Photoshop and Gimp experience in
-		photo enhancement and vector icon creation. I have also completed many video 
-		projects using Adobe Premiere and Final Cut Pro.</p><br>
-        </div>
-      </div>
 
-    <!-- End Left Column -->
+<div id="experience">
+    <div>
+        <img class="itemAvatar circleAvatar" src="assets/assassin.png">
+        <h2>Assassin</h2>
+        <p>An app that facilitates a competitive last-man-standing tag game.</p>
+        <a target="_blank" href="https://assassin.fun">Learn More</a>
+        <h3>Technologies Used:</h3>
+        <div class="techlist">
+            <img class="tech" src="assets/swift.svg">
+            <img class="tech" src="assets/xcode.svg">
+            <img class="tech" src="assets/appstore.svg">
+            <img class="tech blacktech" src="assets/ios.svg">
+            <img class="tech" src="assets/java.svg">
+            <img class="tech" src="assets/kotlin.svg">
+            <img class="tech" src="assets/androidstudio.svg">
+            <img class="tech blacktech" src="assets/googleplay.svg">
+            <img class="tech" src="assets/android.svg">
+            <img class="tech" src="assets/javascript.svg">
+            <img class="tech" src="assets/nodemon.svg">
+            <img class="tech" src="assets/node-dot-js.svg">
+            <img class="tech blacktech" src="assets/json.svg">
+            <img class="tech" src="assets/mongodb.svg">
+        </div>
     </div>
-  <!-- End Grid -->
-  <!-- End Page Container -->
-</div>
+    
+    <div>
+        <img class="itemAvatar circleAvatar" src="assets/odyssey.png">
+        <h2>Odyssey Team Mosaic</h2>
+        <p>A web application that splits an image into a grid, provides each tile to participants, and reassembles an image from the participants' uploaded recreations.</p>
+        <a target="_blank" href="https://odysseyteams.com/team-building-programs/virtual-team-mosaic/">Learn More</a>
+        <h3>Technologies Used:</h3>
+        <div class="techlist">
+            <img class="tech" src="assets/javascript.svg">
+            <img class="tech" src="assets/react.svg">
+            <img class="tech" src="assets/nodemon.svg">
+            <img class="tech" src="assets/node-dot-js.svg">
+            <img class="tech blacktech" src="assets/json.svg">
+            <img class="tech" src="assets/mongodb.svg">
+        </div>
+    </div>
+    
+    <div>
+        <img class="itemAvatar circleAvatar" src="assets/smartshotlogo.png">
+        <h2>SmartShot</h2>
+        <p>An app that connects via Bluetooth Low Energy to a skeet thrower to 'pull' skeet or toggle the wobbler. Includes voice recognition for hands-off control.</p>
+        <h3>Technologies Used:</h3>
+        <div class="techlist">
+            <img class="tech" src="assets/swift.svg">
+            <img class="tech" src="assets/xcode.svg">
+            <img class="tech" src="assets/appstore.svg">
+            <img class="tech blacktech" src="assets/ios.svg">
+            <img class="tech" src="assets/java.svg">
+            <img class="tech" src="assets/kotlin.svg">
+            <img class="tech" src="assets/androidstudio.svg">
+            <img class="tech blacktech" src="assets/googleplay.svg">
+            <img class="tech" src="assets/android.svg">
+            <img class="tech" src="assets/bluetooth.svg">
+            <img class="tech" src="assets/arduino.svg">
 
-    <div id="id01" class="w3-modal w3-hide-large">
-    <div class="w3-modal-content">
-      <div class="w3-container">
-        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-        <center>
-        <img id="myImg" src="assets/avatar.jpg" alt="Snow" style="width:100%;max-width:300px">
-	      </center>
-      </div>
+        </div>
     </div>
-  </div>
+     <div>
+        <img class="itemAvatar circleAvatar" src="assets/tritondine.png">
+        <h2>TritonDine</h2>
+        <p>An app that connects to the UCSD dining dollar service and budgets dining dollars for the rest of the school year.</p>
+        <a target="_blank" href="https://tritondine.jacksheridan.com">Learn More</a>
+        <h3>Technologies Used:</h3>
+        <div class="techlist">
+            <img class="tech" src="assets/swift.svg">
+            <img class="tech" src="assets/xcode.svg">
+            <img class="tech" src="assets/appstore.svg">
+            <img class="tech blacktech" src="assets/ios.svg">
+            <img class="tech" src="assets/java.svg">
+            <img class="tech" src="assets/kotlin.svg">
+            <img class="tech" src="assets/androidstudio.svg">
+            <img class="tech blacktech" src="assets/googleplay.svg">
+            <img class="tech" src="assets/android.svg">
+        </div>
+    </div>
+    
+    <div>
+        <img class="itemAvatar circleAvatar" src="assets/flashcloud.png">
+        <h2>FlashCloud</h2>
+        <p>A home server that turns the contents of a flash drive into a password protected cloud server. (Currently migrating to React/Node stack).</p>
+        <h3>Technologies Used:</h3>
+        <div class="techlist">
+            <img class="tech" src="assets/html5.svg">
+            <img class="tech" src="assets/javascript.svg">
+            <img class="tech" src="assets/php.svg">
+            <img class="tech" src="assets/ubuntu.svg">
+        </div>
+    </div>
     
     
-<div class=" w3-blue w3-center footer">
-    <p></p>
-    <a href="mailto:jackrileysheridan@gmail.com" target="_blank"><i class="fa fa-envelope w3-xlarge"></i></a>
-    <a href="https://www.snapchat.com/add/jacolack" target="_blank"><i class="fab fa-snapchat-square w3-hover-text-yellow w3-xlarge"></i></a>
-    <a href="https://twitter.com/jacolack2" target="_blank"><i class="fab fa-twitter-square w3-hover-text-light-blue w3-xlarge"></i></a>
-    <a href="https://www.facebook.com/jacolack2" target="_blank"><i class="fab fa-facebook w3-hover-text-blue w3-xlarge"></i></a>
-    <a href="https://github.com/Jacolack" target="_blank"><i class="fab fa-github-square w3-hover-text-green w3-xlarge"></i></a>
-    <a href="https://www.linkedin.com/in/jack-sheridan-a371b4166" target="_blank"><i class="fab fa-linkedin  w3-hover-text-blue w3-xlarge"></i></a>
-    <a href="https://www.instagram.com/smoothsuave_/" target="_blank"><i class="fab fa-instagram w3-hover-text-purple w3-xlarge"></i></a>
-    <a href="https://stackoverflow.com/users/6481734/jacolack" target="_blank"><i class="fab fa-stack-overflow w3-hover-text-orange w3-xlarge"></i></a>
-    <p>© <a href="/">Jack Sheridan</a> 2020</p>
-    <p></p>
 </div>
+
+
+<h1>Other Experience</h1>
+                <hr>
+
+<div id="experience">
+    <div>
+        <img class="itemAvatar" src="assets/3d-model.svg">
+        <h2>3D Modeling</h2>
+        <p>I am experienced in multiple 3D modelling programs. I am a Certified SolidWorks Associate as of 2016.</p>
+        <a target="_blank" href="https://jacksheridan.com/3Dmodeling.html">Learn More</a>
+        <h3>Programs Learned:</h3>
+        <div class="techlist">
+            <img class="tech blacktech" src="assets/solidworks.png">
+            <img class="tech blacktech" src="assets/autocad.png">
+            <img class="tech" src="assets/sketchup.svg">
+        </div>
+    </div>
+    
+    <div>
+        <img class="itemAvatar" src="assets/3d-print.svg">
+        <h2>3D Printing</h2>
+        <p>I have learned to fully operate, reload and troubleshoot multiple industry grade printers.</p>
+        <a target="_blank" href="https://jacksheridan.com/3Dmodeling.html">Learn More</a>
+    </div>
+    
+    <div>
+        <img class="itemAvatar" src="assets/photovideo.svg">
+        <h2>Photo/Video Editing</h2>
+        <p>I am experienced in multiple photo and video editing programs. I have designed some of my own icons and videos for my software products.</p>
+        <a target="_blank" href="https://jacksheridan.com/digitalmedia.html">Learn More</a>
+        <h3>Programs Learned:</h3>
+        <div class="techlist">
+            <img class="tech" src="assets/adobephotoshop.svg">
+            <img class="tech blacktech" src="assets/gimp.svg">
+            <img class="tech" src="assets/adobepremierepro.svg">
+            <img class="tech" src="assets/finalcut.png">
+        </div>
+    </div>
+
+  
+    
+    
+</div>
+
+    <footer class="footer">
+      <h3><a href="mailto:jackrileysheridan@gmail.com">Contact</a></h3>
+    </footer>
 </div>
 </body>
 </html>
-
-

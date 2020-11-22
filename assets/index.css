@@ -1,0 +1,87 @@
+html {
+    background-color: #303030;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+#avatar {
+    display: block;
+    margin: auto;
+    width: 30%;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+    max-width: 400px;
+}
+
+#experience {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+    
+}
+
+#experience > div {
+    width: 100%;
+    margin: 20px;
+    max-width: 400px;
+    background-color: #404040;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#experience > div > a {
+display: block;
+    text-align: center;
+    width: 100%;
+    color: aqua;
+}
+
+
+#experience > div > img.itemAvatar {
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#experience > div > img.circleAvatar {
+    border-radius: 50%;
+}
+
+#experience > div > div.techlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#experience > div > div > img.tech {
+    width: 11%;
+    margin: 5px;
+}
+
+#experience > div > div > img.blacktech {
+    width: 9%;
+    padding: 1%;
+    border-radius: 10%;
+    margin: 5px;
+    background-color: white;
+}
+
+#experience > img.itemAvatar {
+    width: 150px;
+}
+
+.footer a {
+    color: white;
+}
